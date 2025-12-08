@@ -49,14 +49,25 @@ namespace CheckinMergeCheckerTest
             //AzureDevopsServiceRequester.WorkItemUpdate
         }
 
-        //[Fact]
-        //public async Task GetIterationWorkItems ()
-        //{
+        [Fact]
+        public async Task GetIterationWorkItems()
+        {
 
-        //    var client = new AzureDevopsServiceRequester.AzureDevopsClient();
-        //    await client.GetIterationWorkItems("114c6270-4f70-4736-b797-845e84702ad4", "0c514242-d539-41bd-a110-dbebf07f870e");
-          
-        //}
+            var client = new AzureDevopsServiceRequester.AzureDevopsClient();
+            await client.GetIterationWorkItems("114c6270-4f70-4736-b797-845e84702ad4", "0c514242-d539-41bd-a110-dbebf07f870e");
+
+        }
+
+        [Fact]
+        public async Task GetTicketAssignment()
+        {
+
+            var client = new AzureDevopsServiceRequester.AzureDevopsClient();
+            var name = await client.GetTicketAssignment("2771453");
+
+            Assert.True(name == "Raj Valluru");
+
+        }
 
         private async Task<string?> GetFileContents (string filePath)
         {

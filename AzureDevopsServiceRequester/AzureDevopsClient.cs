@@ -10,6 +10,7 @@ using Microsoft.TeamFoundation.TestManagement.WebApi;
 using AzureDevopsServiceRequester.AzureDevopsTypes;
 using AzureDevopsServiceRequester.CheckinVerification;
 using System.Net;
+using Newtonsoft.Json.Linq;
 
 namespace AzureDevopsServiceRequester
 {
@@ -25,36 +26,35 @@ namespace AzureDevopsServiceRequester
             return new HttpClientHandler() { UseDefaultCredentials = true };
         }
 
-        public async Task GetWorkItems(string tfsTicketNumber)
+        public async Task<string?> GetTicketAssignment(string tfsTicketNumber)
         {
 
-            try
+            string? ticketAssignedToName = null;
+
+            using (HttpClient client = new HttpClient(GetHttpClientHandler()))
             {
+                client.DefaultRequestHeaders.Accept.Add(
+                    new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
 
-                using (HttpClient client = new HttpClient(GetHttpClientHandler()))
+                using (HttpResponseMessage response = await client.GetAsync(
+                            $"https://tfs.prd.costargroup.com/CoStarCollection/CoStarInternalApps/_apis/wit/workitems/{tfsTicketNumber}?api-version=7.2-preview.3&$expand=links"))
                 {
-                    client.DefaultRequestHeaders.Accept.Add(
-                        new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+                    response.EnsureSuccessStatusCode();
+                    string responseBody = await response.Content.ReadAsStringAsync();
 
-                    //client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic",
-                    //    Convert.ToBase64String(
-                    //        System.Text.ASCIIEncoding.ASCII.GetBytes(
-                    //            string.Format("{0}:{1}", "", personalaccesstoken))));
+                    var jObject = JObject.Parse(responseBody);
 
-                    using (HttpResponseMessage response = await client.GetAsync(
-                                //"https://dev.azure.com/{organization}/_apis/projects"))
-                                $"https://tfs.prd.costargroup.com/CoStarCollection/CoStarInternalApps/_apis/wit/workitems/{tfsTicketNumber}?api-version=7.2-preview.3&$expand=links"))
+                    if (jObject == null)
                     {
-                        response.EnsureSuccessStatusCode();
-                        string responseBody = await response.Content.ReadAsStringAsync();
-                        Console.WriteLine(responseBody);
+                        return null;
                     }
+
+                    ticketAssignedToName = jObject.SelectToken("$.fields['System.AssignedTo'].displayName")?.Value<string>();
+
                 }
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-            }
+
+            return ticketAssignedToName;
 
         }
 
@@ -67,11 +67,6 @@ namespace AzureDevopsServiceRequester
             {
                 client.DefaultRequestHeaders.Accept.Add(
                     new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-
-                //client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic",
-                //    Convert.ToBase64String(
-                //        System.Text.ASCIIEncoding.ASCII.GetBytes(
-                //            string.Format("{0}:{1}", "", personalaccesstoken))));
 
                 using (HttpResponseMessage response = await client.GetAsync(
                             $"https://tfs.prd.costargroup.com/CoStarCollection/CoStarInternalApps/_apis/wit/workItems/{tfsTicketNumber}/updates"))
@@ -94,26 +89,39 @@ namespace AzureDevopsServiceRequester
 
         }
 
-        //public async Task GetIterationWorkItems(string iterationID, string teamID)
-        //{
+        public async Task<IEnumerable<string>?> GetIterationWorkItems(string iterationID, string teamID)
+        {
 
-        //    using (HttpClient client = new HttpClient(GetHttpClientHandler()))
-        //    {
+            IEnumerable<string>? ticketNumbers;
 
-        //        using (HttpResponseMessage response = await client.GetAsync(
-        //            $"https://tfs.prd.costargroup.com/CoStarCollection/{teamID}/_apis/work/teamsettings/iterations/{iterationID}/workitems?api-version=7.1"))
-        //        {
+            using (HttpClient client = new HttpClient(GetHttpClientHandler()))
+            {
 
-        //            response.EnsureSuccessStatusCode();
-        //            string responseBody = await response.Content.ReadAsStringAsync();
+                using (HttpResponseMessage response = await client.GetAsync(
+                    $"https://tfs.prd.costargroup.com/CoStarCollection/CoStarInternalApps/{teamID}/_apis/work/teamsettings/iterations/{iterationID}/workitems?api-version=7.1"))
+                {
 
-        //            Console.WriteLine(responseBody);
+                    response.EnsureSuccessStatusCode();
+                    string responseBody = await response.Content.ReadAsStringAsync();
 
-        //        }
+                    var jObject = JObject.Parse(responseBody);
 
-        //    }
+                    if (jObject == null)
+                    {
+                        return null;
+                    }
 
-        //}
+                    var jObjectTicketNumbers = jObject.SelectTokens("$.workItemRelations..target.id");
+                    ticketNumbers = jObjectTicketNumbers
+                        .Select(t => t.Value<string>() ?? "0");
+
+                }
+
+            }
+
+            return ticketNumbers;
+
+        }
 
         public async Task<Changesets> GetChangeset(string changesetNumber)
         {
