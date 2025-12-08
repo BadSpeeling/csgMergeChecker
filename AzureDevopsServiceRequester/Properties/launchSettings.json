@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AzureDevopsServiceRequester": {
+      "commandName": "Project",
+      "commandLineArgs": "2632460 2691267 2730470"
+    }
+  }
+}

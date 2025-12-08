@@ -1,0 +1,1136 @@
+{
+  "count": 15,
+  "value": [
+    {
+      "id": 1,
+      "workItemId": 2691267,
+      "rev": 1,
+      "revisedBy": {
+        "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+        "name": "Anastasia Reshetnyak <US\\areshetnyak>",
+        "displayName": "Anastasia Reshetnyak",
+        "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+        "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5" } },
+        "uniqueName": "US\\areshetnyak",
+        "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+        "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+      },
+      "revisedDate": "2025-06-27T14:45:21.92Z",
+      "fields": {
+        "System.Id": { "newValue": 2691267 },
+        "System.AreaId": { "newValue": 11409 },
+        "System.NodeName": { "newValue": "Team Anastasia" },
+        "System.AreaLevel1": { "newValue": "CoStarInternalApps" },
+        "System.AreaLevel2": { "newValue": "Financial Platform Team" },
+        "System.AreaLevel3": { "newValue": "Team Anastasia" },
+        "System.Rev": { "newValue": 1 },
+        "System.AuthorizedDate": { "newValue": "2025-06-27T14:45:09.457Z" },
+        "System.RevisedDate": { "newValue": "2025-06-27T14:45:21.92Z" },
+        "System.IterationId": { "newValue": 13733 },
+        "System.IterationLevel1": { "newValue": "CoStarInternalApps" },
+        "System.IterationLevel2": { "newValue": "Enterprise-2025" },
+        "System.IterationLevel3": { "newValue": "Enterprise-2025-Sprint-09" },
+        "System.WorkItemType": { "newValue": "User Story" },
+        "System.State": { "newValue": "New" },
+        "System.Reason": { "newValue": "New" },
+        "System.AssignedTo": {
+          "newValue": {
+            "displayName": "Eric Frye",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/3da31eda-f005-4a32-9d33-8781b8bb7c19",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw" } },
+            "id": "3da31eda-f005-4a32-9d33-8781b8bb7c19",
+            "uniqueName": "US\\efrye",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw"
+          }
+        },
+        "System.CreatedDate": { "newValue": "2025-06-27T14:45:09.457Z" },
+        "System.CreatedBy": {
+          "newValue": {
+            "displayName": "Anastasia Reshetnyak",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5" } },
+            "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+            "uniqueName": "US\\areshetnyak",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+          }
+        },
+        "System.ChangedDate": { "newValue": "2025-06-27T14:45:09.457Z" },
+        "System.ChangedBy": {
+          "newValue": {
+            "displayName": "Anastasia Reshetnyak",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5" } },
+            "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+            "uniqueName": "US\\areshetnyak",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+          }
+        },
+        "System.AuthorizedAs": {
+          "newValue": {
+            "displayName": "Anastasia Reshetnyak",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5" } },
+            "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+            "uniqueName": "US\\areshetnyak",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+          }
+        },
+        "System.PersonId": { "newValue": 404775 },
+        "System.Watermark": { "newValue": 14549558 },
+        "System.IsDeleted": { "newValue": false },
+        "System.CommentCount": { "newValue": 1 },
+        "System.TeamProject": { "newValue": "CoStarInternalApps" },
+        "System.AreaPath": { "newValue": "CoStarInternalApps\\Financial Platform Team\\Team Anastasia" },
+        "System.IterationPath": { "newValue": "CoStarInternalApps\\Enterprise-2025\\Enterprise-2025-Sprint-09" },
+        "System.Title": { "newValue": "Modernize dbo.spCustomerInfoDelete" },
+        "System.BoardColumnDone": { "newValue": false },
+        "Microsoft.VSTS.Common.StackRank": { "newValue": 1999920246.0 },
+        "CoStar.Initiative": { "newValue": "Finance" },
+        "WEF_B505C5DED38F490DA1F049DF909FD4E2_System.ExtensionMarker": { "newValue": true },
+        "WEF_B505C5DED38F490DA1F049DF909FD4E2_Kanban.Column.Done": { "newValue": false },
+        "WEF_8497DF6E20D44A8790CDBF1252A48C3D_System.ExtensionMarker": { "newValue": true },
+        "WEF_8497DF6E20D44A8790CDBF1252A48C3D_Kanban.Column.Done": { "newValue": false },
+        "WEF_D8ACCC02E07D4B2DA0D6642C331AFAFF_Kanban.Column.Done": { "newValue": false },
+        "CoStar.IsSPEP": { "newValue": false },
+        "CoStar.DevOnlyTicket": { "newValue": false },
+        "System.Description": { "newValue": "<div> </div><div style=\"box-sizing:border-box;\"><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\">Alter dbo.spCustomerInfoDelete&nbsp;to be a standard CRUD operation and only handle the deletion of the record (the audit should be handled via the audit trigger) </li><li style=\"box-sizing:border-box;\">Alter&nbsp;<span style=\"box-sizing:border-box;\">dbo.updinsCustomerInfo trigger to follow the audit trigger standard</span> </li><li style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;\">Rename&nbsp;<span style=\"box-sizing:border-box;\">dbo.updinsCustomerInfo to follow the&nbsp;<span style=\"box-sizing:border-box;display:inline !important;\">audit trigger<span style=\"box-sizing:border-box;\">&nbsp;naming convention</span></span></span></span> </li> </ul> </div><div><div style=\"display:flex;justify-content:flex-start;\"><div><div style=\"box-sizing:border-box;\"><span><div> </div></span> </div> </div> </div> </div>" },
+        "Microsoft.VSTS.Common.AcceptanceCriteria": { "newValue": "<div style=\"box-sizing:border-box;\">declare @id int = 123 </div><div style=\"box-sizing:border-box;\">exec&nbsp;<span style=\"box-sizing:border-box;text-align:left;display:inline !important;\">dbo.<span style=\"display:inline !important;\">spCustomerInfoDelete</span>&nbsp;@pCustomerInfoID&nbsp;= @id,&nbsp;@pUserContactId = 123</span> </div><div style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;text-align:left;display:inline !important;\"><br style=\"box-sizing:border-box;\"></span> </div><div style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;text-align:left;display:inline !important;\">Expected result:</span> </div><div style=\"box-sizing:border-box;\"><ul style=\"box-sizing:border-box;padding:0px 0px 0px 40px;\"><li style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;text-align:left;display:inline !important;\">The record is deleted from the&nbsp;dbo.<span style=\"display:inline !important;\"><span style=\"display:inline !important;\">CustomerInfo</span></span> table.</span> </li><li style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;text-align:left;display:inline !important;\">Audit record is inserted into Enterprise.dbo.<span style=\"display:inline !important;\"><span style=\"display:inline !important;\">CustomerInfo</span></span>Audit table</span> </li><li style=\"box-sizing:border-box;\"><span style=\"box-sizing:border-box;text-align:left;display:inline !important;\">Audit record has&nbsp;UpdatedByContactID set to the&nbsp;<span style=\"box-sizing:border-box;display:inline !important;\">@pUserContactId value</span></span> </li> </ul><div style=\"box-sizing:border-box;\"><br style=\"box-sizing:border-box;\"> </div> </div><div style=\"box-sizing:border-box;\">Regression testing: </div><div style=\"box-sizing:border-box;\">When inserting/updating records in&nbsp;<span style=\"box-sizing:border-box;text-align:left;display:inline !important;\">dbo.<span style=\"display:inline !important;\"><span style=\"display:inline !important;\">CustomerInfo</span></span> table, corresponding audit records are inserted into&nbsp;<span style=\"box-sizing:border-box;display:inline !important;\">Enterprise.</span><span style=\"box-sizing:border-box;display:inline !important;\">dbo.<span style=\"display:inline !important;\"><span style=\"display:inline !important;\">CustomerInfo</span></span>Audit table</span></span> </div>" },
+        "CoStar.DeveloperNarrative": { "newValue": "<div><br> </div>" },
+        "WEF_D8ACCC02E07D4B2DA0D6642C331AFAFF_System.ExtensionMarker": { "newValue": true },
+        "CoStar.IsQAVerified": { "newValue": false },
+        "Microsoft.VSTS.Scheduling.StoryPoints": { "newValue": 1.0 },
+        "System.BoardColumn": { "newValue": "New" },
+        "Microsoft.VSTS.Common.StateChangeDate": { "newValue": "2025-06-27T14:45:09.457Z" },
+        "WEF_B505C5DED38F490DA1F049DF909FD4E2_Kanban.Column": { "newValue": "New" },
+        "WEF_8497DF6E20D44A8790CDBF1252A48C3D_Kanban.Column": { "newValue": "New" },
+        "WEF_D8ACCC02E07D4B2DA0D6642C331AFAFF_Kanban.Column": { "newValue": "New" },
+        "System.Parent": { "newValue": 2353890 }
+      },
+      "relations": {
+        "added": [
+          {
+            "rel": "System.LinkTypes.Hierarchy-Reverse",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2353890",
+            "attributes": {
+              "isLocked": false,
+              "name": "Parent"
+            }
+          }
+        ]
+      },
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2691267/updates/1"
+    },
+    {
+      "id": 2,
+      "workItemId": 2691267,
+      "rev": 2,
+      "revisedBy": {
+        "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+        "name": "Anastasia Reshetnyak <US\\areshetnyak>",
+        "displayName": "Anastasia Reshetnyak",
+        "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+        "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5" } },
+        "uniqueName": "US\\areshetnyak",
+        "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+        "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+      },
+      "revisedDate": "2025-06-27T14:45:31.117Z",
+      "fields": {
+        "System.Rev": {
+          "oldValue": 1,
+          "newValue": 2
+        },
+        "System.AuthorizedDate": {
+          "oldValue": "2025-06-27T14:45:09.457Z",
+          "newValue": "2025-06-27T14:45:21.92Z"
+        },
+        "System.RevisedDate": {
+          "oldValue": "2025-06-27T14:45:21.92Z",
+          "newValue": "2025-06-27T14:45:31.117Z"
+        },
+        "System.ChangedDate": {
+          "oldValue": "2025-06-27T14:45:09.457Z",
+          "newValue": "2025-06-27T14:45:21.92Z"
+        },
+        "System.Watermark": {
+          "oldValue": 14549558,
+          "newValue": 14549559
+        },
+        "System.CommentCount": {
+          "oldValue": 1,
+          "newValue": 0
+        },
+        "System.History": { "newValue": "" }
+      },
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2691267/updates/2"
+    },
+    {
+      "id": 3,
+      "workItemId": 2691267,
+      "rev": 3,
+      "revisedBy": {
+        "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+        "name": "Anastasia Reshetnyak <US\\areshetnyak>",
+        "displayName": "Anastasia Reshetnyak",
+        "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+        "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5" } },
+        "uniqueName": "US\\areshetnyak",
+        "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+        "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+      },
+      "revisedDate": "2025-06-27T19:41:26.91Z",
+      "fields": {
+        "System.Rev": {
+          "oldValue": 2,
+          "newValue": 3
+        },
+        "System.AuthorizedDate": {
+          "oldValue": "2025-06-27T14:45:21.92Z",
+          "newValue": "2025-06-27T14:45:31.117Z"
+        },
+        "System.RevisedDate": {
+          "oldValue": "2025-06-27T14:45:31.117Z",
+          "newValue": "2025-06-27T19:41:26.91Z"
+        },
+        "System.State": {
+          "oldValue": "New",
+          "newValue": "Active"
+        },
+        "System.Reason": {
+          "oldValue": "New",
+          "newValue": "Implementation started"
+        },
+        "System.ChangedDate": {
+          "oldValue": "2025-06-27T14:45:21.92Z",
+          "newValue": "2025-06-27T14:45:31.117Z"
+        },
+        "System.Watermark": {
+          "oldValue": 14549559,
+          "newValue": 14549560
+        },
+        "Microsoft.VSTS.Common.ActivatedDate": { "newValue": "2025-06-27T14:45:31.117Z" },
+        "Microsoft.VSTS.Common.ActivatedBy": {
+          "newValue": {
+            "displayName": "Anastasia Reshetnyak",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5" } },
+            "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+            "uniqueName": "US\\areshetnyak",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+          }
+        },
+        "System.BoardColumn": {
+          "oldValue": "New",
+          "newValue": "Active"
+        },
+        "Microsoft.VSTS.Common.StateChangeDate": {
+          "oldValue": "2025-06-27T14:45:09.457Z",
+          "newValue": "2025-06-27T14:45:31.117Z"
+        },
+        "WEF_B505C5DED38F490DA1F049DF909FD4E2_Kanban.Column": {
+          "oldValue": "New",
+          "newValue": "Active"
+        },
+        "WEF_8497DF6E20D44A8790CDBF1252A48C3D_Kanban.Column": {
+          "oldValue": "New",
+          "newValue": "Active"
+        },
+        "WEF_D8ACCC02E07D4B2DA0D6642C331AFAFF_Kanban.Column": {
+          "oldValue": "New",
+          "newValue": "Active"
+        }
+      },
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2691267/updates/3"
+    },
+    {
+      "id": 4,
+      "workItemId": 2691267,
+      "rev": 4,
+      "revisedBy": {
+        "id": "3da31eda-f005-4a32-9d33-8781b8bb7c19",
+        "name": "Eric Frye <US\\efrye>",
+        "displayName": "Eric Frye",
+        "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/3da31eda-f005-4a32-9d33-8781b8bb7c19",
+        "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw" } },
+        "uniqueName": "US\\efrye",
+        "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw",
+        "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw"
+      },
+      "revisedDate": "2025-06-27T20:48:19.307Z",
+      "fields": {
+        "System.Rev": {
+          "oldValue": 3,
+          "newValue": 4
+        },
+        "System.AuthorizedDate": {
+          "oldValue": "2025-06-27T14:45:31.117Z",
+          "newValue": "2025-06-27T19:41:26.91Z"
+        },
+        "System.RevisedDate": {
+          "oldValue": "2025-06-27T19:41:26.91Z",
+          "newValue": "2025-06-27T20:48:19.307Z"
+        },
+        "System.ChangedDate": {
+          "oldValue": "2025-06-27T14:45:31.117Z",
+          "newValue": "2025-06-27T19:41:26.91Z"
+        },
+        "System.ChangedBy": {
+          "oldValue": {
+            "displayName": "Anastasia Reshetnyak",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5" } },
+            "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+            "uniqueName": "US\\areshetnyak",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+          },
+          "newValue": {
+            "displayName": "Eric Frye",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/3da31eda-f005-4a32-9d33-8781b8bb7c19",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw" } },
+            "id": "3da31eda-f005-4a32-9d33-8781b8bb7c19",
+            "uniqueName": "US\\efrye",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw"
+          }
+        },
+        "System.AuthorizedAs": {
+          "oldValue": {
+            "displayName": "Anastasia Reshetnyak",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5" } },
+            "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+            "uniqueName": "US\\areshetnyak",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+          },
+          "newValue": {
+            "displayName": "Eric Frye",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/3da31eda-f005-4a32-9d33-8781b8bb7c19",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw" } },
+            "id": "3da31eda-f005-4a32-9d33-8781b8bb7c19",
+            "uniqueName": "US\\efrye",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw"
+          }
+        },
+        "System.PersonId": {
+          "oldValue": 404775,
+          "newValue": 412190
+        },
+        "System.Watermark": {
+          "oldValue": 14549560,
+          "newValue": 14551687
+        },
+        "System.CommentCount": {
+          "oldValue": 0,
+          "newValue": 1
+        },
+        "System.History": { "newValue": "Associated with changeset 881731: TFS 2691267: Modernize spCustomerInfoDelete" }
+      },
+      "relations": {
+        "added": [
+          {
+            "rel": "ArtifactLink",
+            "url": "vstfs:///VersionControl/Changeset/881731",
+            "attributes": {
+              "authorizedDate": "2025-06-27T19:41:26.91Z",
+              "id": 4351700,
+              "resourceCreatedDate": "2025-06-27T19:41:26.91Z",
+              "resourceModifiedDate": "2025-06-27T19:41:26.91Z",
+              "revisedDate": "9999-01-01T00:00:00Z",
+              "comment": "TFS 2691267: Modernize spCustomerInfoDelete",
+              "name": "Fixed in Changeset"
+            }
+          }
+        ]
+      },
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2691267/updates/4"
+    },
+    {
+      "id": 5,
+      "workItemId": 2691267,
+      "rev": 5,
+      "revisedBy": {
+        "id": "3da31eda-f005-4a32-9d33-8781b8bb7c19",
+        "name": "Eric Frye <US\\efrye>",
+        "displayName": "Eric Frye",
+        "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/3da31eda-f005-4a32-9d33-8781b8bb7c19",
+        "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw" } },
+        "uniqueName": "US\\efrye",
+        "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw",
+        "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw"
+      },
+      "revisedDate": "2025-07-02T13:48:58.56Z",
+      "fields": {
+        "System.Rev": {
+          "oldValue": 4,
+          "newValue": 5
+        },
+        "System.AuthorizedDate": {
+          "oldValue": "2025-06-27T19:41:26.91Z",
+          "newValue": "2025-06-27T20:48:19.307Z"
+        },
+        "System.RevisedDate": {
+          "oldValue": "2025-06-27T20:48:19.307Z",
+          "newValue": "2025-07-02T13:48:58.56Z"
+        },
+        "System.ChangedDate": {
+          "oldValue": "2025-06-27T19:41:26.91Z",
+          "newValue": "2025-06-27T20:48:19.307Z"
+        },
+        "System.Watermark": {
+          "oldValue": 14551687,
+          "newValue": 14552179
+        },
+        "System.CommentCount": {
+          "oldValue": 1,
+          "newValue": 2
+        },
+        "System.History": {
+          "oldValue": "Associated with changeset 881731: TFS 2691267: Modernize spCustomerInfoDelete",
+          "newValue": "Associated with changeset 881740: TFS 2691267: Increase error message length"
+        }
+      },
+      "relations": {
+        "added": [
+          {
+            "rel": "ArtifactLink",
+            "url": "vstfs:///VersionControl/Changeset/881740",
+            "attributes": {
+              "authorizedDate": "2025-06-27T20:48:19.307Z",
+              "id": 4351884,
+              "resourceCreatedDate": "2025-06-27T20:48:19.307Z",
+              "resourceModifiedDate": "2025-06-27T20:48:19.307Z",
+              "revisedDate": "9999-01-01T00:00:00Z",
+              "comment": "TFS 2691267: Increase error message length",
+              "name": "Fixed in Changeset"
+            }
+          }
+        ]
+      },
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2691267/updates/5"
+    },
+    {
+      "id": 6,
+      "workItemId": 2691267,
+      "rev": 6,
+      "revisedBy": {
+        "id": "3da31eda-f005-4a32-9d33-8781b8bb7c19",
+        "name": "Eric Frye <US\\efrye>",
+        "displayName": "Eric Frye",
+        "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/3da31eda-f005-4a32-9d33-8781b8bb7c19",
+        "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw" } },
+        "uniqueName": "US\\efrye",
+        "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw",
+        "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw"
+      },
+      "revisedDate": "2025-07-02T13:51:10.69Z",
+      "fields": {
+        "System.Rev": {
+          "oldValue": 5,
+          "newValue": 6
+        },
+        "System.AuthorizedDate": {
+          "oldValue": "2025-06-27T20:48:19.307Z",
+          "newValue": "2025-07-02T13:48:58.56Z"
+        },
+        "System.RevisedDate": {
+          "oldValue": "2025-07-02T13:48:58.56Z",
+          "newValue": "2025-07-02T13:51:10.69Z"
+        },
+        "System.ChangedDate": {
+          "oldValue": "2025-06-27T20:48:19.307Z",
+          "newValue": "2025-07-02T13:48:58.56Z"
+        },
+        "System.Watermark": {
+          "oldValue": 14552179,
+          "newValue": 14566843
+        },
+        "Microsoft.VSTS.Scheduling.StoryPoints": {
+          "oldValue": 1.0,
+          "newValue": 4.0
+        }
+      },
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2691267/updates/6"
+    },
+    {
+      "id": 7,
+      "workItemId": 2691267,
+      "rev": 7,
+      "revisedBy": {
+        "id": "3da31eda-f005-4a32-9d33-8781b8bb7c19",
+        "name": "Eric Frye <US\\efrye>",
+        "displayName": "Eric Frye",
+        "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/3da31eda-f005-4a32-9d33-8781b8bb7c19",
+        "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw" } },
+        "uniqueName": "US\\efrye",
+        "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw",
+        "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw"
+      },
+      "revisedDate": "2025-07-07T15:10:24.277Z",
+      "fields": {
+        "System.Rev": {
+          "oldValue": 6,
+          "newValue": 7
+        },
+        "System.AuthorizedDate": {
+          "oldValue": "2025-07-02T13:48:58.56Z",
+          "newValue": "2025-07-02T13:51:10.69Z"
+        },
+        "System.RevisedDate": {
+          "oldValue": "2025-07-02T13:51:10.69Z",
+          "newValue": "2025-07-07T15:10:24.277Z"
+        },
+        "System.ChangedDate": {
+          "oldValue": "2025-07-02T13:48:58.56Z",
+          "newValue": "2025-07-02T13:51:10.69Z"
+        },
+        "System.Watermark": {
+          "oldValue": 14566843,
+          "newValue": 14566872
+        },
+        "Microsoft.VSTS.Scheduling.StoryPoints": {
+          "oldValue": 4.0,
+          "newValue": 6.0
+        }
+      },
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2691267/updates/7"
+    },
+    {
+      "id": 8,
+      "workItemId": 2691267,
+      "rev": 8,
+      "revisedBy": {
+        "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+        "name": "Anastasia Reshetnyak <US\\areshetnyak>",
+        "displayName": "Anastasia Reshetnyak",
+        "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+        "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5" } },
+        "uniqueName": "US\\areshetnyak",
+        "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+        "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+      },
+      "revisedDate": "2025-07-07T15:11:36.8Z",
+      "fields": {
+        "System.Rev": {
+          "oldValue": 7,
+          "newValue": 8
+        },
+        "System.AuthorizedDate": {
+          "oldValue": "2025-07-02T13:51:10.69Z",
+          "newValue": "2025-07-07T15:10:24.277Z"
+        },
+        "System.RevisedDate": {
+          "oldValue": "2025-07-07T15:10:24.277Z",
+          "newValue": "2025-07-07T15:11:36.8Z"
+        },
+        "System.ChangedDate": {
+          "oldValue": "2025-07-02T13:51:10.69Z",
+          "newValue": "2025-07-07T15:10:24.277Z"
+        },
+        "System.ChangedBy": {
+          "oldValue": {
+            "displayName": "Eric Frye",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/3da31eda-f005-4a32-9d33-8781b8bb7c19",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw" } },
+            "id": "3da31eda-f005-4a32-9d33-8781b8bb7c19",
+            "uniqueName": "US\\efrye",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw"
+          },
+          "newValue": {
+            "displayName": "Anastasia Reshetnyak",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5" } },
+            "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+            "uniqueName": "US\\areshetnyak",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+          }
+        },
+        "System.AuthorizedAs": {
+          "oldValue": {
+            "displayName": "Eric Frye",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/3da31eda-f005-4a32-9d33-8781b8bb7c19",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw" } },
+            "id": "3da31eda-f005-4a32-9d33-8781b8bb7c19",
+            "uniqueName": "US\\efrye",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTU0NTYw"
+          },
+          "newValue": {
+            "displayName": "Anastasia Reshetnyak",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5" } },
+            "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+            "uniqueName": "US\\areshetnyak",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+          }
+        },
+        "System.PersonId": {
+          "oldValue": 412190,
+          "newValue": 404775
+        },
+        "System.Watermark": {
+          "oldValue": 14566872,
+          "newValue": 14585634
+        }
+      },
+      "relations": {
+        "added": [
+          {
+            "rel": "ArtifactLink",
+            "url": "vstfs:///VersionControl/Changeset/881748",
+            "attributes": {
+              "authorizedDate": "2025-07-07T15:10:24.277Z",
+              "id": 4364529,
+              "resourceCreatedDate": "2025-07-07T15:10:24.277Z",
+              "resourceModifiedDate": "2025-07-07T15:10:24.277Z",
+              "revisedDate": "9999-01-01T00:00:00Z",
+              "comment": "TFS 2691267 merge to main",
+              "name": "Fixed in Changeset"
+            }
+          },
+          {
+            "rel": "ArtifactLink",
+            "url": "vstfs:///VersionControl/Changeset/881749",
+            "attributes": {
+              "authorizedDate": "2025-07-07T15:10:24.277Z",
+              "id": 4364530,
+              "resourceCreatedDate": "2025-07-07T15:10:24.277Z",
+              "resourceModifiedDate": "2025-07-07T15:10:24.277Z",
+              "revisedDate": "9999-01-01T00:00:00Z",
+              "comment": "TFS 2691267 merge to main",
+              "name": "Fixed in Changeset"
+            }
+          }
+        ]
+      },
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2691267/updates/8"
+    },
+    {
+      "id": 9,
+      "workItemId": 2691267,
+      "rev": 9,
+      "revisedBy": {
+        "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+        "name": "Anastasia Reshetnyak <US\\areshetnyak>",
+        "displayName": "Anastasia Reshetnyak",
+        "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+        "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5" } },
+        "uniqueName": "US\\areshetnyak",
+        "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+        "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+      },
+      "revisedDate": "2025-07-07T15:11:53.347Z",
+      "fields": {
+        "System.Rev": {
+          "oldValue": 8,
+          "newValue": 9
+        },
+        "System.AuthorizedDate": {
+          "oldValue": "2025-07-07T15:10:24.277Z",
+          "newValue": "2025-07-07T15:11:36.8Z"
+        },
+        "System.RevisedDate": {
+          "oldValue": "2025-07-07T15:11:36.8Z",
+          "newValue": "2025-07-07T15:11:53.347Z"
+        },
+        "System.ChangedDate": {
+          "oldValue": "2025-07-07T15:10:24.277Z",
+          "newValue": "2025-07-07T15:11:36.8Z"
+        },
+        "System.Watermark": {
+          "oldValue": 14585634,
+          "newValue": 14585660
+        },
+        "System.CommentCount": {
+          "oldValue": 2,
+          "newValue": 3
+        },
+        "System.History": { "newValue": "<div><span style=\"color:rgba(0, 0, 0, 0.9);display:inline !important;\">Associated with changeset 881748: TFS&nbsp;2691267 merge to main</span><br> </div>" }
+      },
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2691267/updates/9"
+    },
+    {
+      "id": 10,
+      "workItemId": 2691267,
+      "rev": 10,
+      "revisedBy": {
+        "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+        "name": "Anastasia Reshetnyak <US\\areshetnyak>",
+        "displayName": "Anastasia Reshetnyak",
+        "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+        "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5" } },
+        "uniqueName": "US\\areshetnyak",
+        "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+        "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+      },
+      "revisedDate": "2025-07-07T15:14:14.86Z",
+      "fields": {
+        "System.Rev": {
+          "oldValue": 9,
+          "newValue": 10
+        },
+        "System.AuthorizedDate": {
+          "oldValue": "2025-07-07T15:11:36.8Z",
+          "newValue": "2025-07-07T15:11:53.347Z"
+        },
+        "System.RevisedDate": {
+          "oldValue": "2025-07-07T15:11:53.347Z",
+          "newValue": "2025-07-07T15:14:14.86Z"
+        },
+        "System.ChangedDate": {
+          "oldValue": "2025-07-07T15:11:36.8Z",
+          "newValue": "2025-07-07T15:11:53.347Z"
+        },
+        "System.Watermark": {
+          "oldValue": 14585660,
+          "newValue": 14585664
+        },
+        "System.CommentCount": {
+          "oldValue": 3,
+          "newValue": 4
+        },
+        "System.History": {
+          "oldValue": "<div><span style=\"color:rgba(0, 0, 0, 0.9);display:inline !important;\">Associated with changeset 881748: TFS&nbsp;2691267 merge to main</span><br> </div>",
+          "newValue": "<span style=\"color:rgba(0, 0, 0, 0.9);display:inline !important;\">Associated with changeset 881749: TFS&nbsp;2691267 merge to main</span>"
+        }
+      },
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2691267/updates/10"
+    },
+    {
+      "id": 11,
+      "workItemId": 2691267,
+      "rev": 11,
+      "revisedBy": {
+        "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+        "name": "Anastasia Reshetnyak <US\\areshetnyak>",
+        "displayName": "Anastasia Reshetnyak",
+        "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+        "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5" } },
+        "uniqueName": "US\\areshetnyak",
+        "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+        "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+      },
+      "revisedDate": "2025-07-07T16:19:19.473Z",
+      "fields": {
+        "System.Rev": {
+          "oldValue": 10,
+          "newValue": 11
+        },
+        "System.AuthorizedDate": {
+          "oldValue": "2025-07-07T15:11:53.347Z",
+          "newValue": "2025-07-07T15:14:14.86Z"
+        },
+        "System.RevisedDate": {
+          "oldValue": "2025-07-07T15:14:14.86Z",
+          "newValue": "2025-07-07T16:19:19.473Z"
+        },
+        "System.State": {
+          "oldValue": "Active",
+          "newValue": "Resolved"
+        },
+        "System.Reason": {
+          "oldValue": "Implementation started",
+          "newValue": "Dev Complete"
+        },
+        "System.ChangedDate": {
+          "oldValue": "2025-07-07T15:11:53.347Z",
+          "newValue": "2025-07-07T15:14:14.86Z"
+        },
+        "System.Watermark": {
+          "oldValue": 14585664,
+          "newValue": 14585703
+        },
+        "Microsoft.VSTS.Common.ResolvedDate": { "newValue": "2025-07-07T15:14:14.86Z" },
+        "Microsoft.VSTS.Common.ResolvedBy": {
+          "newValue": {
+            "displayName": "Anastasia Reshetnyak",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5" } },
+            "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+            "uniqueName": "US\\areshetnyak",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+          }
+        },
+        "Microsoft.VSTS.Common.ResolvedReason": { "newValue": "Fixed" },
+        "System.BoardColumn": {
+          "oldValue": "Active",
+          "newValue": "Resolved"
+        },
+        "Microsoft.VSTS.Common.StateChangeDate": {
+          "oldValue": "2025-06-27T14:45:31.117Z",
+          "newValue": "2025-07-07T15:14:14.86Z"
+        },
+        "WEF_B505C5DED38F490DA1F049DF909FD4E2_Kanban.Column": {
+          "oldValue": "Active",
+          "newValue": "Resolved"
+        },
+        "WEF_8497DF6E20D44A8790CDBF1252A48C3D_Kanban.Column": {
+          "oldValue": "Active",
+          "newValue": "Resolved"
+        },
+        "WEF_D8ACCC02E07D4B2DA0D6642C331AFAFF_Kanban.Column": {
+          "oldValue": "Active",
+          "newValue": "Resolved"
+        }
+      },
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2691267/updates/11"
+    },
+    {
+      "id": 12,
+      "workItemId": 2691267,
+      "rev": 12,
+      "revisedBy": {
+        "id": "4c01389a-1874-4314-85bc-e69dcff1ef53",
+        "name": "Julia Mira <US\\jmira>",
+        "displayName": "Julia Mira",
+        "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/4c01389a-1874-4314-85bc-e69dcff1ef53",
+        "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtODEzNzQ" } },
+        "uniqueName": "US\\jmira",
+        "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtODEzNzQ",
+        "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtODEzNzQ"
+      },
+      "revisedDate": "2025-07-08T15:14:50.87Z",
+      "fields": {
+        "System.Rev": {
+          "oldValue": 11,
+          "newValue": 12
+        },
+        "System.AuthorizedDate": {
+          "oldValue": "2025-07-07T15:14:14.86Z",
+          "newValue": "2025-07-07T16:19:19.473Z"
+        },
+        "System.RevisedDate": {
+          "oldValue": "2025-07-07T16:19:19.473Z",
+          "newValue": "2025-07-08T15:14:50.87Z"
+        },
+        "System.ChangedDate": {
+          "oldValue": "2025-07-07T15:14:14.86Z",
+          "newValue": "2025-07-07T16:19:19.473Z"
+        },
+        "System.ChangedBy": {
+          "oldValue": {
+            "displayName": "Anastasia Reshetnyak",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5" } },
+            "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+            "uniqueName": "US\\areshetnyak",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+          },
+          "newValue": {
+            "displayName": "Julia Mira",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/4c01389a-1874-4314-85bc-e69dcff1ef53",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtODEzNzQ" } },
+            "id": "4c01389a-1874-4314-85bc-e69dcff1ef53",
+            "uniqueName": "US\\jmira",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtODEzNzQ",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtODEzNzQ"
+          }
+        },
+        "System.AuthorizedAs": {
+          "oldValue": {
+            "displayName": "Anastasia Reshetnyak",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5" } },
+            "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+            "uniqueName": "US\\areshetnyak",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+          },
+          "newValue": {
+            "displayName": "Julia Mira",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/4c01389a-1874-4314-85bc-e69dcff1ef53",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtODEzNzQ" } },
+            "id": "4c01389a-1874-4314-85bc-e69dcff1ef53",
+            "uniqueName": "US\\jmira",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtODEzNzQ",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtODEzNzQ"
+          }
+        },
+        "System.PersonId": {
+          "oldValue": 404775,
+          "newValue": 291302
+        },
+        "System.Watermark": {
+          "oldValue": 14585703,
+          "newValue": 14587041
+        },
+        "CoStar.QAAssignedTo": {
+          "newValue": {
+            "displayName": "Priya Nalavade",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/03b27d3f-bf16-45ec-9c91-ed901de776f7",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2" } },
+            "id": "03b27d3f-bf16-45ec-9c91-ed901de776f7",
+            "uniqueName": "US\\pnalavade",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2"
+          }
+        }
+      },
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2691267/updates/12"
+    },
+    {
+      "id": 13,
+      "workItemId": 2691267,
+      "rev": 13,
+      "revisedBy": {
+        "id": "03b27d3f-bf16-45ec-9c91-ed901de776f7",
+        "name": "Priya Nalavade <US\\pnalavade>",
+        "displayName": "Priya Nalavade",
+        "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/03b27d3f-bf16-45ec-9c91-ed901de776f7",
+        "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2" } },
+        "uniqueName": "US\\pnalavade",
+        "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2",
+        "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2"
+      },
+      "revisedDate": "2025-07-08T15:15:17.06Z",
+      "fields": {
+        "System.Rev": {
+          "oldValue": 12,
+          "newValue": 13
+        },
+        "System.AuthorizedDate": {
+          "oldValue": "2025-07-07T16:19:19.473Z",
+          "newValue": "2025-07-08T15:14:50.87Z"
+        },
+        "System.RevisedDate": {
+          "oldValue": "2025-07-08T15:14:50.87Z",
+          "newValue": "2025-07-08T15:15:17.06Z"
+        },
+        "System.ChangedDate": {
+          "oldValue": "2025-07-07T16:19:19.473Z",
+          "newValue": "2025-07-08T15:14:50.87Z"
+        },
+        "System.ChangedBy": {
+          "oldValue": {
+            "displayName": "Julia Mira",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/4c01389a-1874-4314-85bc-e69dcff1ef53",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtODEzNzQ" } },
+            "id": "4c01389a-1874-4314-85bc-e69dcff1ef53",
+            "uniqueName": "US\\jmira",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtODEzNzQ",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtODEzNzQ"
+          },
+          "newValue": {
+            "displayName": "Priya Nalavade",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/03b27d3f-bf16-45ec-9c91-ed901de776f7",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2" } },
+            "id": "03b27d3f-bf16-45ec-9c91-ed901de776f7",
+            "uniqueName": "US\\pnalavade",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2"
+          }
+        },
+        "System.AuthorizedAs": {
+          "oldValue": {
+            "displayName": "Julia Mira",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/4c01389a-1874-4314-85bc-e69dcff1ef53",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtODEzNzQ" } },
+            "id": "4c01389a-1874-4314-85bc-e69dcff1ef53",
+            "uniqueName": "US\\jmira",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtODEzNzQ",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtODEzNzQ"
+          },
+          "newValue": {
+            "displayName": "Priya Nalavade",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/03b27d3f-bf16-45ec-9c91-ed901de776f7",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2" } },
+            "id": "03b27d3f-bf16-45ec-9c91-ed901de776f7",
+            "uniqueName": "US\\pnalavade",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2"
+          }
+        },
+        "System.PersonId": {
+          "oldValue": 291302,
+          "newValue": 396685
+        },
+        "System.Watermark": {
+          "oldValue": 14587041,
+          "newValue": 14593436
+        },
+        "System.CommentCount": {
+          "oldValue": 4,
+          "newValue": 5
+        },
+        "System.History": { "newValue": "<div><img src=\"https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/attachments/362e3d21-7d03-43af-9ae9-311ae9d72f13?fileName=image.png\" alt=Image><br> </div>" }
+      },
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2691267/updates/13"
+    },
+    {
+      "id": 14,
+      "workItemId": 2691267,
+      "rev": 14,
+      "revisedBy": {
+        "id": "03b27d3f-bf16-45ec-9c91-ed901de776f7",
+        "name": "Priya Nalavade <US\\pnalavade>",
+        "displayName": "Priya Nalavade",
+        "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/03b27d3f-bf16-45ec-9c91-ed901de776f7",
+        "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2" } },
+        "uniqueName": "US\\pnalavade",
+        "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2",
+        "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2"
+      },
+      "revisedDate": "2025-11-12T15:30:38.39Z",
+      "fields": {
+        "System.Rev": {
+          "oldValue": 13,
+          "newValue": 14
+        },
+        "System.AuthorizedDate": {
+          "oldValue": "2025-07-08T15:14:50.87Z",
+          "newValue": "2025-07-08T15:15:17.06Z"
+        },
+        "System.RevisedDate": {
+          "oldValue": "2025-07-08T15:15:17.06Z",
+          "newValue": "2025-11-12T15:30:38.39Z"
+        },
+        "System.State": {
+          "oldValue": "Resolved",
+          "newValue": "Closed"
+        },
+        "System.Reason": {
+          "oldValue": "Dev Complete",
+          "newValue": "Acceptance tests pass"
+        },
+        "System.ChangedDate": {
+          "oldValue": "2025-07-08T15:14:50.87Z",
+          "newValue": "2025-07-08T15:15:17.06Z"
+        },
+        "System.Watermark": {
+          "oldValue": 14593436,
+          "newValue": 14593438
+        },
+        "System.BoardColumn": {
+          "oldValue": "Resolved",
+          "newValue": "Closed"
+        },
+        "Microsoft.VSTS.Common.StateChangeDate": {
+          "oldValue": "2025-07-07T15:14:14.86Z",
+          "newValue": "2025-07-08T15:15:17.06Z"
+        },
+        "Microsoft.VSTS.Common.ClosedDate": { "newValue": "2025-07-08T15:15:17.06Z" },
+        "Microsoft.VSTS.Common.ClosedBy": {
+          "newValue": {
+            "displayName": "Priya Nalavade",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/03b27d3f-bf16-45ec-9c91-ed901de776f7",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2" } },
+            "id": "03b27d3f-bf16-45ec-9c91-ed901de776f7",
+            "uniqueName": "US\\pnalavade",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2"
+          }
+        },
+        "WEF_B505C5DED38F490DA1F049DF909FD4E2_Kanban.Column": {
+          "oldValue": "Resolved",
+          "newValue": "Closed"
+        },
+        "WEF_8497DF6E20D44A8790CDBF1252A48C3D_Kanban.Column": {
+          "oldValue": "Resolved",
+          "newValue": "Closed"
+        },
+        "WEF_D8ACCC02E07D4B2DA0D6642C331AFAFF_Kanban.Column": {
+          "oldValue": "Resolved",
+          "newValue": "Closed"
+        },
+        "CoStar.IsQAVerified": {
+          "oldValue": false,
+          "newValue": true
+        }
+      },
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2691267/updates/14"
+    },
+    {
+      "id": 15,
+      "workItemId": 2691267,
+      "rev": 15,
+      "revisedBy": {
+        "name": "Microsoft.TeamFoundation.System <000007F5-0000-8888-8000-000000000000@00000000-0000-0000-0000-000000000000>",
+        "displayName": "Microsoft.TeamFoundation.System <000007F5-0000-8888-8000-000000000000@00000000-0000-0000-0000-000000000000>"
+      },
+      "revisedDate": "9999-01-01T00:00:00Z",
+      "fields": {
+        "System.Rev": {
+          "oldValue": 14,
+          "newValue": 15
+        },
+        "System.AuthorizedDate": {
+          "oldValue": "2025-07-08T15:15:17.06Z",
+          "newValue": "2025-11-12T15:30:38.39Z"
+        },
+        "System.RevisedDate": {
+          "oldValue": "2025-11-12T15:30:38.39Z",
+          "newValue": "9999-01-01T00:00:00Z"
+        },
+        "System.ChangedDate": {
+          "oldValue": "2025-07-08T15:15:17.06Z",
+          "newValue": "2025-11-12T15:30:38.39Z"
+        },
+        "System.ChangedBy": {
+          "oldValue": {
+            "displayName": "Priya Nalavade",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/03b27d3f-bf16-45ec-9c91-ed901de776f7",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2" } },
+            "id": "03b27d3f-bf16-45ec-9c91-ed901de776f7",
+            "uniqueName": "US\\pnalavade",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2"
+          },
+          "newValue": {
+            "displayName": "Microsoft.TeamFoundation.System",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/000007f5-0000-8888-8000-000000000000",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDA3RjUtMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMA" } },
+            "id": "000007f5-0000-8888-8000-000000000000",
+            "uniqueName": "000007F5-0000-8888-8000-000000000000@00000000-0000-0000-0000-000000000000",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDA3RjUtMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMA",
+            "descriptor": "s2s.MDAwMDA3RjUtMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMA"
+          }
+        },
+        "System.AuthorizedAs": {
+          "oldValue": {
+            "displayName": "Priya Nalavade",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/03b27d3f-bf16-45ec-9c91-ed901de776f7",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2" } },
+            "id": "03b27d3f-bf16-45ec-9c91-ed901de776f7",
+            "uniqueName": "US\\pnalavade",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2",
+            "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQxNTM2"
+          },
+          "newValue": {
+            "displayName": "Microsoft.TeamFoundation.System",
+            "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/000007f5-0000-8888-8000-000000000000",
+            "_links": { "avatar": { "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDA3RjUtMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMA" } },
+            "id": "000007f5-0000-8888-8000-000000000000",
+            "uniqueName": "000007F5-0000-8888-8000-000000000000@00000000-0000-0000-0000-000000000000",
+            "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/s2s.MDAwMDA3RjUtMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMA",
+            "descriptor": "s2s.MDAwMDA3RjUtMDAwMC04ODg4LTgwMDAtMDAwMDAwMDAwMDAwQDAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMA"
+          }
+        },
+        "System.PersonId": {
+          "oldValue": 396685,
+          "newValue": 349108
+        },
+        "System.Watermark": {
+          "oldValue": 14593438,
+          "newValue": 15120375
+        },
+        "WEF_D8ACCC02E07D4B2DA0D6642C331AFAFF_System.ExtensionMarker": {
+          "oldValue": true,
+          "newValue": false
+        }
+      },
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2691267/updates/15"
+    }
+  ]
+}
