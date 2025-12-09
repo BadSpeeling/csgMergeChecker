@@ -31,22 +31,29 @@ namespace AzureDevopsServiceRequester
             }
 
             Console.WriteLine("Getting metadata for work items...");
-            await foreach (var workItemDetails in GetWorkItemDetails(workItemIds))
+            await foreach (var workItemDetailTask in Task.WhenEach(GetWorkItemDetails(workItemIds)))
             {
 
-                TeamMember teamMember;
+                var workItemDetails = await workItemDetailTask;
 
-                if (teamMembers.ContainsKey(workItemDetails.AssignedTeamMember))
+                if (workItemDetails == null)
                 {
-                    teamMember = teamMembers[workItemDetails.AssignedTeamMember];
+                    continue;
+                }
+
+                TeamMember teamMember;               
+
+                if (teamMembers.ContainsKey(workItemDetails.Value.AssignedTeamMember))
+                {
+                    teamMember = teamMembers[workItemDetails.Value.AssignedTeamMember];
                 }
                 else
                 {
-                    teamMember = new TeamMember(workItemDetails.AssignedTeamMember);
-                    teamMembers.Add(workItemDetails.AssignedTeamMember, teamMember);
+                    teamMember = new TeamMember(workItemDetails.Value.AssignedTeamMember);
+                    teamMembers.Add(workItemDetails.Value.AssignedTeamMember, teamMember);
                 }
 
-                teamMember.AddAssignedTicket(workItemDetails.WorkItemID);
+                teamMember.AddAssignedTicket(workItemDetails.Value.WorkItemID);
 
             }
 
@@ -88,26 +95,9 @@ namespace AzureDevopsServiceRequester
 
         }
 
-        public async IAsyncEnumerable<(string WorkItemID, string AssignedTeamMember)> GetWorkItemDetails(IEnumerable<string> workItems)
+        public IEnumerable<Task<(string WorkItemID, string AssignedTeamMember)?>> GetWorkItemDetails(IEnumerable<string> workItems)
         {
-
-            foreach (var workItem in workItems)
-            {
-
-                var assignedTeamMemberName = await client.GetTicketAssignment(workItem);
-
-                if (assignedTeamMemberName == null)
-                {
-                    continue;
-                }
-
-                else
-                {
-                    yield return (workItem, assignedTeamMemberName);
-                }
-
-            }
-
+            return workItems.Select(w => client.GetTicketAssignment(w));
         }
 
         public async Task VerifyWorkItems(List<string> workItemIds)

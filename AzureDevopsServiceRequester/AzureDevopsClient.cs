@@ -26,7 +26,7 @@ namespace AzureDevopsServiceRequester
             return new HttpClientHandler() { UseDefaultCredentials = true };
         }
 
-        public async Task<string?> GetTicketAssignment(string tfsTicketNumber)
+        public async Task<(string WorkItemID, string AssignedTeamMember)?> GetTicketAssignment(string tfsTicketNumber)
         {
 
             string? ticketAssignedToName = null;
@@ -54,7 +54,7 @@ namespace AzureDevopsServiceRequester
                 }
             }
 
-            return ticketAssignedToName;
+            return (WorkItemID: tfsTicketNumber, AssignedTeamMember: ticketAssignedToName ?? "Unassigned");
 
         }
 
