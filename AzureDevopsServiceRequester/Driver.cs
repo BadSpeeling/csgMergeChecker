@@ -27,7 +27,57 @@ namespace AzureDevopsServiceRequester
 
         }
 
-        public async static Task VerifyWorkItems(string[] workItemIds)
+        public async static Task HandleSprint (string iterationID, AzureDevOpsTeam azureDevOpsTeam)
+        {
+
+            Console.WriteLine("Getting work items for team...");
+            
+            var workItems = await client.GetIterationWorkItems(iterationID, azureDevOpsTeam.ParentID);
+
+            if (workItems == null)
+            {
+                Console.WriteLine($"Could not get work items for iteration {iterationID} and team {azureDevOpsTeam.TeamName}");
+                return;
+            }
+
+            var teamMemberAssignedWork = new Dictionary<string, TeamMember>();
+
+            foreach (var teamMemberName in azureDevOpsTeam.TeamMemberNames)
+            {
+                teamMemberAssignedWork.Add(teamMemberName, new TeamMember(teamMemberName));
+            }
+
+            Console.WriteLine("Getting metadata for work items...");
+
+            foreach (var workItem in workItems)
+            {
+
+                var assignedTeamMemberName = await client.GetTicketAssignment(workItem);
+
+                if (assignedTeamMemberName == null)
+                {
+                    Console.WriteLine($"Could not get assigned team member for ticket {workItem}");
+                    continue;
+                }
+
+                if (teamMemberAssignedWork.ContainsKey(assignedTeamMemberName))
+                {
+                    teamMemberAssignedWork[assignedTeamMemberName].AddAssignedTicket(workItem);
+                }
+
+            }
+
+            Console.WriteLine("Starting merge verification!");
+
+            foreach (TeamMember teamMember in teamMemberAssignedWork.Values)
+            {
+                Console.WriteLine($"\nTickets for: {teamMember.DisplayName}\n");
+                await VerifyWorkItems(teamMember.AssignedTickets);
+            }
+
+        }
+
+        public async static Task VerifyWorkItems(List<string> workItemIds)
         {
             foreach (string workItem in workItemIds)
             {
