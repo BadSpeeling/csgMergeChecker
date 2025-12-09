@@ -179,6 +179,45 @@ namespace AzureDevopsServiceRequester
 
         }
 
+        public async Task<IEnumerable<string>?> GetWorkItemsByQuery(string queryID)
+        {
+
+            IEnumerable<string>? ticketNumbers = null;
+
+            using (HttpClient client = new HttpClient(GetHttpClientHandler()))
+            {
+
+                var wiqlQueryURL = $"https://tfs.prd.costargroup.com/CoStarCollection/CoStarInternalApps/_apis/wit/wiql/{queryID}?api-Version=1.0";
+
+                using (HttpResponseMessage response = await client.GetAsync(
+                    wiqlQueryURL))
+                {
+
+                    string responseBody = "";
+
+                    if (response.StatusCode == HttpStatusCode.OK)
+                    {
+                        responseBody = await response.Content.ReadAsStringAsync();
+                    }
+
+                    var jObject = JObject.Parse(responseBody);
+
+                    if (jObject == null)
+                    {
+                        return null;
+                    }
+
+                    var jObjectTicketNumbers = jObject.SelectTokens("$.workItems..id");
+                    ticketNumbers = jObjectTicketNumbers
+                        .Select(t => t.Value<string>() ?? "0");
+
+                }
+
+            }
+
+            return ticketNumbers;
+
+        }
     }
 
 }

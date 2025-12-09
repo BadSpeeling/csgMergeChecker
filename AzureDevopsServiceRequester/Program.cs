@@ -1,9 +1,9 @@
 ﻿using AzureDevopsServiceRequester;
 
-string teamName = args[0];
-string iterationID = args[1];
+string queryID = args[0];
 
-var teams = new AzureDevOpsTeamMappings();
-var team = teams.AzureDevOpsTeams[teamName];
+//var teams = new AzureDevOpsTeamMappings();
 
-await Driver.HandleSprint(iterationID, team);
+var mergeVerifier = new MergeVerifier();
+await mergeVerifier.HandleSprint(queryID);
+

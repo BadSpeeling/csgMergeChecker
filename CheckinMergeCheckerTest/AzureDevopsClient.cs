@@ -69,6 +69,17 @@ namespace CheckinMergeCheckerTest
 
         }
 
+        [Fact]
+        public async Task GetWorkItemsByQuery()
+        {
+
+            var queryID = "dc7ff019-6dee-43bb-822a-74ace0e55a40";
+
+            var client = new AzureDevopsServiceRequester.AzureDevopsClient();
+            var result = await client.GetWorkItemsByQuery(queryID);
+
+        }
+
         private async Task<string?> GetFileContents (string filePath)
         {
 
