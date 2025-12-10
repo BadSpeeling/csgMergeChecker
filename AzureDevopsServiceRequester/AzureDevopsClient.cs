@@ -29,8 +29,6 @@ namespace AzureDevopsServiceRequester
         public async Task<(string WorkItemID, string AssignedTeamMember)?> GetTicketAssignment(string tfsTicketNumber)
         {
 
-            string? ticketAssignedToName = null;
-
             using (HttpClient client = new HttpClient(GetHttpClientHandler()))
             {
                 client.DefaultRequestHeaders.Accept.Add(
@@ -39,29 +37,27 @@ namespace AzureDevopsServiceRequester
                 using (HttpResponseMessage response = await client.GetAsync(
                             $"https://tfs.prd.costargroup.com/CoStarCollection/CoStarInternalApps/_apis/wit/workitems/{tfsTicketNumber}?api-version=7.2-preview.3&$expand=links"))
                 {
-                    response.EnsureSuccessStatusCode();
-                    string responseBody = await response.Content.ReadAsStringAsync();
 
-                    var jObject = JObject.Parse(responseBody);
-
-                    if (jObject == null)
+                    if (response.StatusCode != HttpStatusCode.OK)
                     {
                         return null;
                     }
 
-                    ticketAssignedToName = jObject.SelectToken("$.fields['System.AssignedTo'].displayName")?.Value<string>();
+                    string responseBody = await response.Content.ReadAsStringAsync();
 
+                    var jObject = JObject.Parse(responseBody);
+
+                    var ticketAssignedToName = jObject.SelectToken("$.fields['System.AssignedTo'].displayName")?.Value<string>();
+                    return (WorkItemID: tfsTicketNumber, AssignedTeamMember: ticketAssignedToName ?? "Unassigned");
+                    
                 }
             }
 
-            return (WorkItemID: tfsTicketNumber, AssignedTeamMember: ticketAssignedToName ?? "Unassigned");
 
         }
 
         public async Task<WorkItemUpdate?> GetWorkItemUpdate(string tfsTicketNumber)
         {
-
-            WorkItemUpdate? workItemUpdateResponse = null;
 
             using (HttpClient client = new HttpClient(GetHttpClientHandler()))
             {
@@ -71,28 +67,22 @@ namespace AzureDevopsServiceRequester
                 using (HttpResponseMessage response = await client.GetAsync(
                             $"https://tfs.prd.costargroup.com/CoStarCollection/CoStarInternalApps/_apis/wit/workItems/{tfsTicketNumber}/updates"))
                 {
-                    if (response.StatusCode == HttpStatusCode.OK)
+
+                    if (response.StatusCode != HttpStatusCode.OK)
                     {
-                        string responseBody = await response.Content.ReadAsStringAsync();
-                        workItemUpdateResponse = Newtonsoft.Json.JsonConvert.DeserializeObject<WorkItemUpdate>(responseBody);
+                        return null;
                     }
+
+                    string responseBody = await response.Content.ReadAsStringAsync();
+                    return Newtonsoft.Json.JsonConvert.DeserializeObject<WorkItemUpdate>(responseBody);
+
                 }
             }
-
-            if (workItemUpdateResponse == null)
-            {
-                //log?
-                return null;                
-            }
-
-            return workItemUpdateResponse;
 
         }
 
         public async Task<IEnumerable<string>?> GetIterationWorkItems(string iterationID, string teamID)
         {
-
-            IEnumerable<string>? ticketNumbers;
 
             using (HttpClient client = new HttpClient(GetHttpClientHandler()))
             {
@@ -101,32 +91,27 @@ namespace AzureDevopsServiceRequester
                     $"https://tfs.prd.costargroup.com/CoStarCollection/CoStarInternalApps/{teamID}/_apis/work/teamsettings/iterations/{iterationID}/workitems?api-version=7.1"))
                 {
 
-                    response.EnsureSuccessStatusCode();
+                    if (response.StatusCode != HttpStatusCode.OK)
+                    {
+                        return null;
+                    }
+                    
                     string responseBody = await response.Content.ReadAsStringAsync();
 
                     var jObject = JObject.Parse(responseBody);
 
-                    if (jObject == null)
-                    {
-                        return null;
-                    }
-
                     var jObjectTicketNumbers = jObject.SelectTokens("$.workItemRelations..target.id");
-                    ticketNumbers = jObjectTicketNumbers
+                    return jObjectTicketNumbers
                         .Select(t => t.Value<string>() ?? "0");
-
+                    
                 }
 
             }
 
-            return ticketNumbers;
-
         }
 
-        public async Task<Changesets> GetChangeset(string changesetNumber)
+        public async Task<Changesets?> GetChangeset(string changesetNumber)
         {
-
-            Changesets? changesetsResponse;
 
             using (HttpClient client = new HttpClient(GetHttpClientHandler()))
             {
@@ -135,27 +120,22 @@ namespace AzureDevopsServiceRequester
                     $"https://tfs.prd.costargroup.com/CoStarCollection/CoStarInternalApps/_apis/tfvc/changesets/{changesetNumber}?maxChangeCount=100&api-version=7.2-preview.3"))
                 {
 
-                    response.EnsureSuccessStatusCode();
+                    if (response.StatusCode != HttpStatusCode.OK)
+                    {
+                        return null;
+                    }
+             
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    changesetsResponse = Newtonsoft.Json.JsonConvert.DeserializeObject<Changesets>(responseBody);
+                    return Newtonsoft.Json.JsonConvert.DeserializeObject<Changesets>(responseBody);
 
                 }
 
             }
 
-            if (changesetsResponse == null)
-            {
-                throw new Exception("The response from __apis/tfvc/changesets could not be deserialized");
-            }
-
-            return changesetsResponse;
-
         }
 
         public async Task<string?> GetFileContents(string sourceControlPath)
-        {
-
-            string? fileContents = null;
+        {            
 
             using (HttpClient client = new HttpClient(GetHttpClientHandler()))
             {
@@ -166,23 +146,21 @@ namespace AzureDevopsServiceRequester
                     fileContentsApiUrl))
                 {
 
-                    if (response.StatusCode == HttpStatusCode.OK)
+                    if (response.StatusCode != HttpStatusCode.OK)
                     {
-                        fileContents = await response.Content.ReadAsStringAsync();
+                        return null;
                     }
-                    
+
+                    return await response.Content.ReadAsStringAsync();                    
+
                 }
 
             }
-
-            return fileContents;
 
         }
 
         public async Task<IEnumerable<string>?> GetWorkItemsByQuery(string queryID)
         {
-
-            IEnumerable<string>? ticketNumbers = null;
 
             using (HttpClient client = new HttpClient(GetHttpClientHandler()))
             {
@@ -193,29 +171,21 @@ namespace AzureDevopsServiceRequester
                     wiqlQueryURL))
                 {
 
-                    string responseBody = "";
-
-                    if (response.StatusCode == HttpStatusCode.OK)
+                    if (response.StatusCode != HttpStatusCode.OK)
                     {
-                        responseBody = await response.Content.ReadAsStringAsync();
+                        return null;                        
                     }
 
+                    string responseBody = await response.Content.ReadAsStringAsync();
                     var jObject = JObject.Parse(responseBody);
 
-                    if (jObject == null)
-                    {
-                        return null;
-                    }
-
                     var jObjectTicketNumbers = jObject.SelectTokens("$.workItems..id");
-                    ticketNumbers = jObjectTicketNumbers
+                    return jObjectTicketNumbers
                         .Select(t => t.Value<string>() ?? "0");
 
                 }
 
             }
-
-            return ticketNumbers;
 
         }
     }
