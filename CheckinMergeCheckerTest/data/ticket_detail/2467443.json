@@ -1,0 +1,85 @@
+{
+  "id": 2467443,
+  "rev": 32,
+  "fields": {
+    "System.AreaPath": "CoStarInternalApps\\Financial Platform Team\\Team Anastasia",
+    "System.TeamProject": "CoStarInternalApps",
+    "System.IterationPath": "CoStarInternalApps\\Enterprise-2025\\Enterprise-2025-Sprint-17",
+    "System.WorkItemType": "Figure Out",
+    "System.State": "New",
+    "System.Reason": "New",
+    "System.CreatedDate": "2024-07-25T14:04:03.49Z",
+    "System.CreatedBy": {
+      "displayName": "Lakshmi Somakumar",
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/563fe5ea-b98e-42f8-8d65-417de747bdae",
+      "_links": {
+        "avatar": {
+          "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTUyOTc0"
+        }
+      },
+      "id": "563fe5ea-b98e-42f8-8d65-417de747bdae",
+      "uniqueName": "US\\lsomakumar",
+      "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTUyOTc0",
+      "inactive": true,
+      "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTUyOTc0"
+    },
+    "System.ChangedDate": "2025-11-13T14:46:37.587Z",
+    "System.ChangedBy": {
+      "displayName": "Anastasia Reshetnyak",
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+      "_links": {
+        "avatar": {
+          "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+        }
+      },
+      "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+      "uniqueName": "US\\areshetnyak",
+      "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+      "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+    },
+    "System.CommentCount": 0,
+    "System.Title": "Automating Testing for Oracle Integration",
+    "System.BoardColumn": "New",
+    "System.BoardColumnDone": false,
+    "Microsoft.VSTS.Common.StateChangeDate": "2024-07-25T14:04:03.49Z",
+    "Microsoft.VSTS.Common.Priority": 2,
+    "Microsoft.VSTS.Common.StackRank": 1999922758,
+    "Microsoft.VSTS.Scheduling.StoryPoints": 2,
+    "Microsoft.VSTS.Common.ValueArea": "Business",
+    "CoStar.Initiative": "Finance",
+    "WEF_B505C5DED38F490DA1F049DF909FD4E2_Kanban.Column": "New",
+    "WEF_B505C5DED38F490DA1F049DF909FD4E2_Kanban.Column.Done": false,
+    "WEF_8497DF6E20D44A8790CDBF1252A48C3D_Kanban.Column": "New",
+    "WEF_8497DF6E20D44A8790CDBF1252A48C3D_Kanban.Column.Done": false,
+    "WEF_D8ACCC02E07D4B2DA0D6642C331AFAFF_Kanban.Column": "New",
+    "WEF_D8ACCC02E07D4B2DA0D6642C331AFAFF_Kanban.Column.Done": false,
+    "CoStar.IsSPEP": false,
+    "CoStar.IsQAVerified": false,
+    "CoStar.DevOnlyTicket": false
+  },
+  "_links": {
+    "self": {
+      "href": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2467443"
+    },
+    "workItemUpdates": {
+      "href": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2467443/updates"
+    },
+    "workItemRevisions": {
+      "href": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2467443/revisions"
+    },
+    "workItemComments": {
+      "href": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2467443/comments"
+    },
+    "html": {
+      "href": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_workitems/edit/2467443"
+    },
+    "workItemType": {
+      "href": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItemTypes/Figure%20Out"
+    },
+    "fields": {
+      "href": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/fields"
+    }
+  },
+  "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2467443"
+}
+

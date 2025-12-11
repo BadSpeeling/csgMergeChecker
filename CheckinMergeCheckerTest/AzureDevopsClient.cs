@@ -43,40 +43,52 @@ namespace CheckinMergeCheckerTest
         }
 
         [Fact]
-        public async Task GetChangesets()
-        {
-            
-            //AzureDevopsServiceRequester.WorkItemUpdate
-        }
-
-        [Fact]
-        public async Task GetIterationWorkItems()
+        public async Task ExtractWorkItemIdsFromQueryResult()
         {
 
-            var client = new AzureMergeChecker.AzureDevopsClient();
-            //await client.GetIterationWorkItems("114c6270-4f70-4736-b797-845e84702ad4", "0c514242-d539-41bd-a110-dbebf07f870e");
+            var queryID = "s17_anastasia";
 
-        }
+            var requester = new FakeRequester();
+            var operation = new AzureDevOpsOperation(requester);
 
-        [Fact]
-        public async Task GetTicketAssignment()
-        {
+            var results = (await operation.GetWorkItemsByQuery(queryID))?.ToArray<string>();
 
-            var client = new AzureMergeChecker.AzureDevopsClient();
-            //var name = await client.GetTicketAssignment("2771453");
-
-            //Assert.True(name == "Raj Valluru");
+            Assert.NotNull(results);
+            Assert.Equal(4, results.Length);
+            Assert.True(results[0] == "2467443");
+            Assert.True(results[1] == "2477261");
+            Assert.True(results[2] == "2547847");
+            Assert.True(results[3] == "2569140");
 
         }
 
         [Fact]
-        public async Task GetWorkItemsByQuery()
+        public async Task ExtractTicketAssignment()
         {
 
-            var queryID = "dc7ff019-6dee-43bb-822a-74ace0e55a40";
+            var ticketID = "2645327";
 
-            var client = new AzureMergeChecker.AzureDevopsClient();
-            //var result = await client.GetWorkItemsByQuery(queryID);
+            var requester = new FakeRequester();
+            var operation = new AzureDevOpsOperation(requester);
+
+            var assignment = await operation.GetTicketAssignment(ticketID);
+
+            Assert.Equal("Anastasia Reshetnyak", assignment.AssignedTeamMember);
+
+        }
+
+        [Fact]
+        public async Task ExtractTicketAssignmentUnassigned()
+        {
+
+            var ticketID = "2467443";
+
+            var requester = new FakeRequester();
+            var operation = new AzureDevOpsOperation(requester);
+
+            var assignment = await operation.GetTicketAssignment(ticketID);
+
+            Assert.Equal("Unassigned", assignment.AssignedTeamMember);
 
         }
 

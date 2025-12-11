@@ -1,0 +1,99 @@
+{
+  "id": 2645327,
+  "rev": 23,
+  "fields": {
+    "System.AreaPath": "CoStarInternalApps\\Financial Platform Team\\Team Anastasia",
+    "System.TeamProject": "CoStarInternalApps",
+    "System.IterationPath": "CoStarInternalApps\\Enterprise-2025\\Enterprise-2025-Sprint-17",
+    "System.WorkItemType": "User Story",
+    "System.State": "New",
+    "System.Reason": "Moved to the backlog",
+    "System.AssignedTo": {
+      "displayName": "Anastasia Reshetnyak",
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+      "_links": {
+        "avatar": {
+          "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+        }
+      },
+      "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+      "uniqueName": "US\\areshetnyak",
+      "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+      "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+    },
+    "System.CreatedDate": "2025-04-09T22:30:23.283Z",
+    "System.CreatedBy": {
+      "displayName": "Anastasia Reshetnyak",
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+      "_links": {
+        "avatar": {
+          "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+        }
+      },
+      "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+      "uniqueName": "US\\areshetnyak",
+      "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+      "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+    },
+    "System.ChangedDate": "2025-12-04T15:06:26.44Z",
+    "System.ChangedBy": {
+      "displayName": "Anastasia Reshetnyak",
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/Identities/9881f014-5593-4065-9091-b40f0dcadb2c",
+      "_links": {
+        "avatar": {
+          "href": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+        }
+      },
+      "id": "9881f014-5593-4065-9091-b40f0dcadb2c",
+      "uniqueName": "US\\areshetnyak",
+      "imageUrl": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5",
+      "descriptor": "win.Uy0xLTUtMjEtMzQxOTQ2NzQ5Ny0zMjMwNDE0MDI5LTEzMjQ1NTIzMDUtMTQ2ODk5"
+    },
+    "System.CommentCount": 0,
+    "System.Title": "Changes to the Customer Receipt integration",
+    "System.BoardColumn": "New",
+    "System.BoardColumnDone": false,
+    "Microsoft.VSTS.Common.StateChangeDate": "2025-05-09T14:21:51.167Z",
+    "Microsoft.VSTS.Common.StackRank": 1999958508,
+    "Microsoft.VSTS.Scheduling.StoryPoints": 8,
+    "CoStar.Initiative": "Finance",
+    "WEF_B505C5DED38F490DA1F049DF909FD4E2_Kanban.Column": "New",
+    "WEF_B505C5DED38F490DA1F049DF909FD4E2_Kanban.Column.Done": false,
+    "WEF_8497DF6E20D44A8790CDBF1252A48C3D_Kanban.Column": "New",
+    "WEF_8497DF6E20D44A8790CDBF1252A48C3D_Kanban.Column.Done": false,
+    "WEF_D8ACCC02E07D4B2DA0D6642C331AFAFF_Kanban.Column": "New",
+    "WEF_D8ACCC02E07D4B2DA0D6642C331AFAFF_Kanban.Column.Done": false,
+    "CoStar.IsSPEP": false,
+    "CoStar.IsQAVerified": false,
+    "WEF_AB56D7F862FD4CC1BFE4746176F4F6D5_Kanban.Column": "New",
+    "WEF_AB56D7F862FD4CC1BFE4746176F4F6D5_Kanban.Column.Done": false,
+    "CoStar.NonCodeStoryType": "Prototype",
+    "CoStar.DevOnlyTicket": false,
+    "System.Description": "\u003Cdiv\u003EIdentify the developer's steps to make a new/existing integration mockable \u003C/div\u003E"
+  },
+  "_links": {
+    "self": {
+      "href": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2645327"
+    },
+    "workItemUpdates": {
+      "href": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2645327/updates"
+    },
+    "workItemRevisions": {
+      "href": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2645327/revisions"
+    },
+    "workItemComments": {
+      "href": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2645327/comments"
+    },
+    "html": {
+      "href": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_workitems/edit/2645327"
+    },
+    "workItemType": {
+      "href": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItemTypes/User%20Story"
+    },
+    "fields": {
+      "href": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/fields"
+    }
+  },
+  "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2645327"
+}
+

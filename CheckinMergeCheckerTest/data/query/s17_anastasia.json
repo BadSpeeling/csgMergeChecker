@@ -1,0 +1,90 @@
+{
+  "queryType": "flat",
+  "queryResultType": "workItem",
+  "asOf": "2025-12-11T16:54:36.09Z",
+  "columns": [
+    {
+      "referenceName": "System.Id",
+      "name": "ID",
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/wit/fields/System.Id"
+    },
+    {
+      "referenceName": "CoStar.Initiative",
+      "name": "Initiative",
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/wit/fields/CoStar.Initiative"
+    },
+    {
+      "referenceName": "System.Parent",
+      "name": "Parent",
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/wit/fields/System.Parent"
+    },
+    {
+      "referenceName": "System.WorkItemType",
+      "name": "Work Item Type",
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/wit/fields/System.WorkItemType"
+    },
+    {
+      "referenceName": "System.State",
+      "name": "State",
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/wit/fields/System.State"
+    },
+    {
+      "referenceName": "System.AssignedTo",
+      "name": "Assigned To",
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/wit/fields/System.AssignedTo"
+    },
+    {
+      "referenceName": "System.Title",
+      "name": "Title",
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/wit/fields/System.Title"
+    },
+    {
+      "referenceName": "Microsoft.VSTS.Scheduling.StoryPoints",
+      "name": "Story Points",
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/wit/fields/Microsoft.VSTS.Scheduling.StoryPoints"
+    },
+    {
+      "referenceName": "System.Tags",
+      "name": "Tags",
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/wit/fields/System.Tags"
+    },
+    {
+      "referenceName": "CoStar.ShippingPriority",
+      "name": "ShippingPriority",
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/wit/fields/CoStar.ShippingPriority"
+    },
+    {
+      "referenceName": "System.ChangedDate",
+      "name": "Changed Date",
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/wit/fields/System.ChangedDate"
+    }
+  ],
+  "sortColumns": [
+    {
+      "field": {
+        "referenceName": "CoStar.Initiative",
+        "name": "Initiative",
+        "url": "https://tfs.prd.costargroup.com/CoStarCollection/_apis/wit/fields/CoStar.Initiative"
+      },
+      "descending": false
+    }
+  ],
+  "workItems": [
+    {
+      "id": 2467443,
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2467443"
+    },
+    {
+      "id": 2477261,
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2477261"
+    },
+    {
+      "id": 2547847,
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2547847"
+    },
+    {
+      "id": 2569140,
+      "url": "https://tfs.prd.costargroup.com/CoStarCollection/700f87f9-260c-4762-a3ff-dda5cdc7c41d/_apis/wit/workItems/2569140"
+    }
+  ]
+}
