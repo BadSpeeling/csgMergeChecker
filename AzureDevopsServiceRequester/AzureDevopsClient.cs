@@ -33,6 +33,8 @@ namespace AzureMergeChecker
                 using (HttpClient client = new HttpClient(GetHttpClientHandler()))
                 {
 
+                    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
                     using (HttpResponseMessage response = await client.GetAsync(url))
                     {
                         response.EnsureSuccessStatusCode();
@@ -52,6 +54,8 @@ namespace AzureMergeChecker
             {
                 using (HttpClient client = new HttpClient(GetHttpClientHandler()))
                 {
+
+                    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("text/plain"));
 
                     using (HttpResponseMessage response = await client.GetAsync(url))
                     {
