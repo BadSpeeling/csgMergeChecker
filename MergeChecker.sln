@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckinMergeChecker", "Chec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckinMergeCheckerTest", "CheckinMergeCheckerTest\CheckinMergeCheckerTest.csproj", "{D832BE1F-CBB3-4306-970F-679B3C06215D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevopsServiceRequester", "AzureDevopsServiceRequester\AzureDevopsServiceRequester.csproj", "{F1239275-5A74-4DFE-946F-B4FF9C3031A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureMergeChecker", "AzureDevopsServiceRequester\AzureMergeChecker.csproj", "{F1239275-5A74-4DFE-946F-B4FF9C3031A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -5,7 +5,7 @@ using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AzureDevopsServiceRequester.CheckinVerification
+namespace AzureMergeChecker.CheckinVerification
 {
     public class ModifiedFile
     {

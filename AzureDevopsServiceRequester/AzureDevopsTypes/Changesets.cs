@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AzureDevopsServiceRequester.AzureDevopsTypes
+namespace AzureMergeChecker.AzureDevopsTypes
 {
     public class Changesets
     {

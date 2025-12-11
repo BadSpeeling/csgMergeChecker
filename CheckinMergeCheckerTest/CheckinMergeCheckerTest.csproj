@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AzureDevopsServiceRequester\AzureDevopsServiceRequester.csproj" />
+    <ProjectReference Include="..\AzureDevopsServiceRequester\AzureMergeChecker.csproj" />
     <ProjectReference Include="..\CheckinMergeChecker\CheckinMergeChecker.csproj" />
   </ItemGroup>
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AzureDevopsServiceRequester.CheckinVerification
+namespace AzureMergeChecker.CheckinVerification
 {
     public class Filechecker
     {
@@ -14,11 +14,14 @@ namespace AzureDevopsServiceRequester.CheckinVerification
         private IList<string> MergedDevFiles;
         private IList<string> MergeMissingDevFiles;
 
-        public Filechecker ()
+        private AzureDevOpsOperation Operation;
+
+        public Filechecker (AzureDevOpsOperation Operation)
         {
             this.DevFilesPath = new HashSet<string>();
             this.MergedDevFiles = new List<string>();
             this.MergeMissingDevFiles = new List<string>();
+            this.Operation = Operation;
         }
 
         public void AddDevFile (string file)
@@ -54,8 +57,8 @@ namespace AzureDevopsServiceRequester.CheckinVerification
         {
 
             var client = new AzureDevopsClient();
-            var devFileContents = await client.GetFileContents(modifiedFile.GetDevSourceControlPath());
-            var mainFileContents = await client.GetFileContents(modifiedFile.GetMainSourceControlPath());
+            string? devFileContents = await Operation.GetFileContents(modifiedFile.GetDevSourceControlPath());
+            string? mainFileContents = await Operation.GetFileContents(modifiedFile.GetMainSourceControlPath());
 
             if (devFileContents == null || mainFileContents == null)
             {

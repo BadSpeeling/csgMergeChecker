@@ -1,4 +1,5 @@
-﻿using AzureDevopsServiceRequester.CheckinVerification;
+﻿using AzureMergeChecker.AzureDevOpsRequester;
+using AzureMergeChecker.CheckinVerification;
 using Microsoft.VisualStudio.Services.Common;
 using Microsoft.VisualStudio.Services.Common.CommandLine;
 using System;
@@ -10,13 +11,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AzureDevopsServiceRequester
+namespace AzureMergeChecker
 {
     public class MergeVerifier
     {
 
-        private AzureDevopsClient client = new AzureDevopsClient();
+        private AzureDevOpsOperation Operation;
         private Dictionary<string, TeamMember> teamMembers = new Dictionary<string, TeamMember>();
+
+        public MergeVerifier (Requester Requester)
+        {
+            Operation = new AzureDevOpsOperation(Requester);
+        }
 
         public async Task HandleSprint(string queryID)
         {
@@ -36,24 +42,19 @@ namespace AzureDevopsServiceRequester
 
                 var workItemDetails = await workItemDetailTask;
 
-                if (workItemDetails == null)
-                {
-                    continue;
-                }
-
                 TeamMember teamMember;               
 
-                if (teamMembers.ContainsKey(workItemDetails.Value.AssignedTeamMember))
+                if (teamMembers.ContainsKey(workItemDetails.AssignedTeamMember))
                 {
-                    teamMember = teamMembers[workItemDetails.Value.AssignedTeamMember];
+                    teamMember = teamMembers[workItemDetails.AssignedTeamMember];
                 }
                 else
                 {
-                    teamMember = new TeamMember(workItemDetails.Value.AssignedTeamMember);
-                    teamMembers.Add(workItemDetails.Value.AssignedTeamMember, teamMember);
+                    teamMember = new TeamMember(workItemDetails.AssignedTeamMember);
+                    teamMembers.Add(workItemDetails.AssignedTeamMember, teamMember);
                 }
 
-                teamMember.AddAssignedTicket(workItemDetails.Value.WorkItemID);
+                teamMember.AddAssignedTicket(workItemDetails.WorkItemID);
 
             }
 
@@ -69,7 +70,7 @@ namespace AzureDevopsServiceRequester
 
         public async Task<IEnumerable<string>?> GetWorkItemsForSprint(string iterationID, AzureDevOpsTeam azureDevOpsTeam)
         {
-            var workItems = await client.GetIterationWorkItems(iterationID, azureDevOpsTeam.ParentID);
+            var workItems = await Operation.GetIterationWorkItems(iterationID, azureDevOpsTeam.ParentID);
 
             if (workItems == null)
             {
@@ -83,7 +84,7 @@ namespace AzureDevopsServiceRequester
 
         public async Task<IEnumerable<string>?> GetWorkItemIdsForSprint(string queryID)
         {
-            var workItems = await client.GetWorkItemsByQuery(queryID);
+            var workItems = await Operation.GetWorkItemsByQuery(queryID);
 
             if (workItems == null)
             {
@@ -95,9 +96,9 @@ namespace AzureDevopsServiceRequester
 
         }
 
-        public IEnumerable<Task<(string WorkItemID, string AssignedTeamMember)?>> GetWorkItemDetails(IEnumerable<string> workItems)
+        public IEnumerable<Task<(string WorkItemID, string AssignedTeamMember)>> GetWorkItemDetails(IEnumerable<string> workItems)
         {
-            return workItems.Select(w => client.GetTicketAssignment(w));
+            return workItems.Select(w => Operation.GetTicketAssignment(w));
         }
 
         public async Task VerifyWorkItems(List<string> workItemIds)
@@ -115,7 +116,7 @@ namespace AzureDevopsServiceRequester
             var workItemVerifyResult = "";
             workItemVerifyResult += "-----------------------\n| " + workItemId + "\n-----------------------\n";
 
-            var workItemUpdate = await client.GetWorkItemUpdate(workItemId);
+            var workItemUpdate = await Operation.GetWorkItemUpdate(workItemId);
 
             if (workItemUpdate == null)
             {
@@ -124,7 +125,7 @@ namespace AzureDevopsServiceRequester
             }
 
             var changesets = AzureDevopsResponseHelper.ExtractChangesetIdsFromWorkItemUpdate(workItemUpdate);
-            var mergeVerifier = new Filechecker();
+            var mergeVerifier = new Filechecker(Operation);
 
             foreach (var changeset in changesets)
             {
@@ -142,7 +143,7 @@ namespace AzureDevopsServiceRequester
         {
 
             var client = new AzureDevopsClient();
-            var changeset = await client.GetChangeset(changesetId);
+            var changeset = await Operation.GetChangeset(changesetId);
 
             var devFileChanges = AzureDevopsResponseHelper.ExtractDevChangesOnTicket(changeset);
 
